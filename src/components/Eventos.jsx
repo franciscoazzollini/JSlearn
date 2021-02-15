@@ -10,7 +10,7 @@ const Eventos = () => {
     const eventoClick = () =>{
         console.log('Me diste un Click')
         setTexto(string1 + " Nuevo texto")
-        //Para que funcione bien hay que poner "texto" en vez de string1.. el tutorial esta mal2
+        //Para que funcione bien hay que poner "texto" en vez de string1.. el tutorial esta mal
     }
     
     return (
