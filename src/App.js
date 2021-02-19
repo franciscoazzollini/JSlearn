@@ -1,19 +1,19 @@
-import Eventos from "./components/Eventos";
-import Listas from "./components/Listas";
-import Parrafo from "./components/Parrafo";
-import Variables from "./components/Variables";
+// import Eventos from "./components/Eventos";
+// import Listas from "./components/Listas";
+// import Parrafo from "./components/Parrafo";
+// import Variables from "./components/Variables";
 import Formulario from "./components/Formulario";
 
 function App() {
   return (
-    <div className="App">
+    <div className="container mt-3">
      <h1>Hola Mundo React</h1>
      <Formulario/>
-     {/* {<Parrafo/>
+     {/* <Parrafo/>
      <Parrafo/>
      <Variables/>
      <Eventos/>
-     <Listas/>} */}
+     <Listas/> */}
     
     </div>
   );
